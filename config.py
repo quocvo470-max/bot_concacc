@@ -11,7 +11,7 @@ CHANNEL_USERNAME = os.getenv("CHANNEL_USERNAME", "onggioasike_bot")
 CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/onggioasike_bot")
 
 # 管理员配置
-ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", "5015219075"))
+ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", "-5015219075"))
 
 # 积分配置
 VERIFY_COST = 1  # 验证消耗的积分
